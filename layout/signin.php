@@ -50,7 +50,7 @@
                                 $mail->Port       = 587;
                                 $mail->Host       = "smtp.gmail.com";
                                 $mail->Username   = "bryanrasamizafy98@gmail.com";
-                                $mail->Password   = "Beloha98";
+                                $mail->Password   = "apzoeiruty135";
 
                                 $mail->IsHTML(true);
                                 $mail->AddAddress($email, $pseudo);
