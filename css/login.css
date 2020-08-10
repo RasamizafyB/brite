@@ -1,0 +1,148 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/lala.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+position: relative;
+}
+
+.card{
+min-height: 300px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h3{
+color: white;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+}
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.error{
+    color: red;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.done{
+    color:green;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.log{
+    height: 270px;
+}
+
+.profil {
+    background-color: rgba(0,0,0,0.5) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 600px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+h3{
+    margin-top: 5%;
+    color: white;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #3498DB;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.img{
+    position: relative;
+}
+.edit{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    right: 5%;
+}
+.fas, .fa-pencil-alt{
+    color: white;
+}
+
+.buttom{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 5% 10%;
+}
