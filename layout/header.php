@@ -48,7 +48,6 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="layout/past_event.php">Past event</a></li>
                 <?php if(isset($_SESSION['id'])){ ?>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#addEvent">Creat event</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="layout/logout.php">Log out</a></li>
                 <?php }else{ ?>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="layout/signin.php">Sign in</a></li>
